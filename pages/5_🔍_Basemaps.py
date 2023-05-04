@@ -33,6 +33,7 @@ with row1_col2:
 
     checkbox = st.checkbox("Search Quick Map Services (QMS)")
     keyword = st.text_input("Enter a keyword to search and press Enter:")
+    url = st.text_input("Enter URL")
     empty = st.empty()
 
     if keyword:
