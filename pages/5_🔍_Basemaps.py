@@ -43,7 +43,7 @@ with row1_col2:
 
         tiles = empty.multiselect("Select XYZ tiles to add to the map:", options)
 
-m = leafmap.map()
+m = leafmap.Map()
 m.add_basemap(dropdown)
 
 if url:
