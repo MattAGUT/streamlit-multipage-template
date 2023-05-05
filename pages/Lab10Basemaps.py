@@ -14,7 +14,7 @@ m = leafmap.Map()
 m.add_basemap(dropdown)
 
 if url:
-    m.add_tile_layer(url, name = "Tile Layer", attribution= " ")
+    m.add_tile_layer(url, name = 'Tile Layer', attribution= ' ')
 
 with col1:
     m.to_streamlit()
